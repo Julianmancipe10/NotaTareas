@@ -1,0 +1,61 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #04043d;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Contenedor principal */
+  #root {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%;
+  }
+  
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #252525;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+ ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
